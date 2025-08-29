@@ -25,7 +25,7 @@ Backend
 •	npm install
 •	npm start
 Frontend
-•	cd frontend
+•	cd frontend/app
 •	npm install
 •	npm install leaflet react-leaflet
 •	npm run dev
