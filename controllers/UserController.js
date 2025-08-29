@@ -30,7 +30,8 @@ const getLeaderboard = async (req, res) => {
   try {
     const users = await User.find({})
       .sort({ score: -1 }) // Highest scores first
-      .limit(10)           // Top 10
+      .limit(10)
+           // Top 10
       .select("name score"); // Only return name and score
 
     res.json(users);
